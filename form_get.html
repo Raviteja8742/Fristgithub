@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>POST Form</title>
+</head>
+<body>
+  <h2>Course Registration Form (POST)</h2>
+  <form action="/submit-post" method="post">
+    <label>Name: <input type="text" name="name" required></label><br><br>
+    <label>Course:
+      <select name="course">
+        <option value="Java">Java</option>
+        <option value="Python">Python</option>
+        <option value="Web Dev">Web Development</option>
+      </select>
+    </label><br><br>
+    <input type="submit" value="Submit (POST)">
+  </form>
+</body>
+</html>
